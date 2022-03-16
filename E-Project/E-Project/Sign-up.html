@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    
+    
+</head>
+<body style="background-color: rgb(223, 168, 106);">
+    <div style="background-size: cover; background-color: rgb(77, 45, 9); ">
+        <div class="container-fluid child-wrapper1">
+            <header>
+                <div class="container ">
+                    <nav class="navbar navbar-expand-lg navbar-light pt-4   ">
+                        <a style="font-weight: 900;font-size:x-large;font-style: italic; color: rgb(223, 168, 106); margin-top: -15px" href="#">Richfield Chairs</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon "></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav navbar-icons ml-auto ">
+                                <li style="color: rgb(223, 168, 106); font-weight: bolder; font-style: italic;">
+                                    <a class="nav-link pl-4" id="col"  href="home.html"> Home </a>
+                                </li>
+                                <li style="color: rgb(223, 168, 106); font-weight: bolder; font-style: italic;">
+                                  <a class="nav-link pl-4" id="col" href="Shops.html">Shops</a>
+                              </li>
+                                
+                                <li style="color: rgb(223, 168, 106); font-weight: bolder; font-style: italic;">
+                                    <a class="nav-link pl-4" id="col" href="aboutus.html">About Us</a>
+                                </li>
+                                <li style="color: rgb(223, 168, 106); font-weight: bolder; font-style: italic;">
+                                    <a class="nav-link pl-4" id="col" href="contactme.html">Contact us</a>
+                                </li>
+                                
+                                
+                                </li>
+                              
+                            </ul>
+                        </div>
+                    </nav>
+
+                </div>
+
+            </header>
+        </div>
+        <!-- <div class="text">
+            
+            <h1 class="text-center text-white">Welcome</h1>
+            
+        </div> -->
+        
+    </div>
+<br>
+<br>
+<br>
+
+
+    <div class="container">
+       
+            <h2 class=" text-center" id="abouthead"> Sign Up </h2>
+
+        
+    <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label >Email</label>
+            <input type="email" class="form-control" required id="inputEmail4" placeholder="Email">
+          </div>
+          <div class="form-group col-md-6">
+            <label >Password</label>
+            <input type="password" class="form-control" required  id="inputPassword4" placeholder="Password">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Address</label>
+          <input type="text" class="form-control" required  id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+          <label >Contact no.</label>
+          <input type="number" class="form-control" required id="inputAddress2" placeholder="Conatact Number">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label >City</label>
+            <input type="text" class="form-control" required id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label >Province</label>
+            <select id="inputProvince" class="form-control" required >
+              <option selected>Choose...</option>
+              <option>Sindh</option>
+              <option>Balochistan</option>
+              <option>KPK</option>
+              <option>Punjab</option>
+              <option>Gilgit baltistan</option>
+              
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label >Zip</label>
+            <input type="text" class="form-control" required id="inputZip">
+          </div>
+        </div>
+        
+        <button  class="btn btn-danger" onclick="buy()" style="width:70%; margin-left: 170px;">Sign in</button>
+      </form>
+    </div>
+    <script>
+      function buy(){
+        alert("Thank You for the Purchase");
+      }
+    </script>
+
+  
+  <br>
+  <br>
+
+    <ul class="list-unstyled list-inline text-center py-2">
+        <li class="list-inline-item">
+          <h5 class="mb-1">Register And Have A Purchase!</h5>
+        </li>
+        <li class="list-inline-item">
+          <a href="Sign-up.html" class="btn btn-danger btn-rounded">Register</a>
+        </li>
+      </ul>
+      
+    
+      <hr>
+    
+     
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1" href="https://twitter.com/?lang=en">
+            <i class="fab fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1" href="https://www.google.com/">
+            <i class="fab fa-google-plus-g"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-dribbble mx-1" href="https://dribbble.com/">
+            <i class="fab fa-dribbble"> </i>
+          </a>
+        </li>
+      </ul>
+      
+    
+    
+      <div class="footer-copyright text-center py-3">© 2021 Copyright:
+        <a href="https://mdbootstrap.com/">E-project.com</a>
+      </div>
+      
+    
+    </footer>
+</body>
+</html>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  

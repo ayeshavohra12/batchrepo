@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+.text{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 120px;
+}
+
+.text h1{
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+}
+#col{
+    color: rgb(223, 168, 106);
+}
+#icon{
+    margin-left: 120px;
+}
+#head1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+}
+#text1{
+    margin-top: -370px;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(224, 167, 113);
+    font-weight: bolder;
+}
+h1 {
+    text-shadow: 2px 3px #522c08;
+  }
+h3 {
+    text-shadow: 2px 2px #522c08;
+}
+#head2{
+    font-size: 40px;
+}
+#hometext{
+    margin-top: -40px;
+}
+#abouthead{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+#abouttext1{
+    font-weight: bold;
+    font-style: italic;
+}
+#head2about{
+    font-size: 50px;
+}
+#sale{
+    height: 350px;
+}
+
+
+
+  #triggerId{
+      background-color:  rgb(223, 168, 106);
+      color: black;
+      border-color:  rgb(223, 168, 106);
+      font-weight: bolder;
+      margin-left: 40px;
+      font-size: 18px;
+  }
+  #card1{
+      width: 50%;
+      margin-left: 400px;
+      height: 250px;
+
+  }
+  #p1{
+    
+  }
+
+ 
